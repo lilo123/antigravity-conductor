@@ -1,0 +1,11 @@
+{
+  "name": "conductor",
+  "displayName": "Conductor",
+  "description": "Run a premium model (e.g. Claude Opus) as the planner and reviewer, and hand the reading, editing, building and testing to cheaper Gemini subagents so premium quota lasts longer.",
+  "version": "0.1.0",
+  "suggestedPrompts": [
+    "/conductor Build this feature end to end and keep my Opus usage low.",
+    "/conductor Research this topic with parallel scouts and give me a one-page brief.",
+    "/conductor Review what the last worker changed and tell me if it's safe to ship."
+  ]
+}
